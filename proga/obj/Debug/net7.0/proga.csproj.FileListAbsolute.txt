@@ -1,0 +1,15 @@
+C:\Users\pugac\OneDrive\Рабочий стол\IT\kontrol\proga\obj\Debug\net7.0\proga.csproj.AssemblyReference.cache
+C:\Users\pugac\OneDrive\Рабочий стол\IT\kontrol\proga\obj\Debug\net7.0\proga.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pugac\OneDrive\Рабочий стол\IT\kontrol\proga\obj\Debug\net7.0\proga.AssemblyInfoInputs.cache
+C:\Users\pugac\OneDrive\Рабочий стол\IT\kontrol\proga\obj\Debug\net7.0\proga.AssemblyInfo.cs
+C:\Users\pugac\OneDrive\Рабочий стол\IT\kontrol\proga\obj\Debug\net7.0\proga.csproj.CoreCompileInputs.cache
+C:\Users\pugac\OneDrive\Рабочий стол\IT\kontrol\proga\bin\Debug\net7.0\proga.exe
+C:\Users\pugac\OneDrive\Рабочий стол\IT\kontrol\proga\bin\Debug\net7.0\proga.deps.json
+C:\Users\pugac\OneDrive\Рабочий стол\IT\kontrol\proga\bin\Debug\net7.0\proga.runtimeconfig.json
+C:\Users\pugac\OneDrive\Рабочий стол\IT\kontrol\proga\bin\Debug\net7.0\proga.dll
+C:\Users\pugac\OneDrive\Рабочий стол\IT\kontrol\proga\bin\Debug\net7.0\proga.pdb
+C:\Users\pugac\OneDrive\Рабочий стол\IT\kontrol\proga\obj\Debug\net7.0\proga.dll
+C:\Users\pugac\OneDrive\Рабочий стол\IT\kontrol\proga\obj\Debug\net7.0\refint\proga.dll
+C:\Users\pugac\OneDrive\Рабочий стол\IT\kontrol\proga\obj\Debug\net7.0\proga.pdb
+C:\Users\pugac\OneDrive\Рабочий стол\IT\kontrol\proga\obj\Debug\net7.0\proga.genruntimeconfig.cache
+C:\Users\pugac\OneDrive\Рабочий стол\IT\kontrol\proga\obj\Debug\net7.0\ref\proga.dll
