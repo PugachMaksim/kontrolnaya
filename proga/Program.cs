@@ -11,42 +11,41 @@
 [“Russia”, “Denmark”, “Kazan”] → []
 */
 
-
-int count=1;
-List<string>zdch = new List<string>();
-Console.WriteLine("Введите текст");
-for (int i = 0; i < count; i++)
+int n;
+Console.WriteLine("Введите кол-во элементов");
+int.TryParse(Console.ReadLine(), out n);
+Console.Write("Введите текст: ");
+string[] zadachka = new string[n];
+for (int i = 0; i < zadachka.Length; i++)
 {
-  string xxx = Console.ReadLine();
-  if (xxx != "")
+  zadachka[i] = Console.ReadLine();
+}
+Console.Write($"[");
+for (int j = 0; j < zadachka.Length; j++)
+{
+  Console.Write($"\"{zadachka[j]}\" ");
+}
+Console.Write($"]");
+
+string[] sort = new string[n];
+  int num = 0;
+  for (int j = 0; j < zadachka.Length; j++)
   {
-  zdch.Add(xxx);
-  count++;
+    if (zadachka[j].Length < 4)
+    {
+      sort[num] = zadachka[j];
+      num++;
+    }
   }
-  else
+sort = sort.Where(x => x != null).ToArray();
+
+
+Console.Write($"-> [");
+for (int j = 0; j < sort.Length; j++)
+{
+  if(sort[j]!="")
   {
-    Console.WriteLine("Ввода не было");
-    break;
+  Console.Write($"\"{sort[j]}\" ");
   }
 }
-
-Console.Write("[");
-foreach (var item in zdch)
-{
-  Console.Write($"\"{item}\" ");
-}
-Console.Write("]");
-Console.Write("-> ");
-
-List<string>zdchNew = new List<string>();
-for (int i = 0; i < zdch.Count; i++)
-{
-  if (zdch[i].Length < 4)
-    zdchNew.Add(zdch[i]);
-}
-Console.Write("[");
-foreach (var item in zdchNew)
-{
-  Console.Write($"\"{item}\" ");
-}
-Console.Write("]");
+Console.Write($"]");
